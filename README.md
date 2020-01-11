@@ -10,7 +10,7 @@ This is an easy-to-use Python package to download transcripts of TED talks.
 pip install --upgrade git+git://github.com/zhijing-jin/ted_talk_downloader.git
 ```
 
-**Method 3:** For research use (strictly not commercial), download this dataset of all the transcripts of TED talks.
+**Method 3:** For research use (strictly not commercial), download [this dataset](http://bit.ly/ted-data-zhijing) of all the transcripts of TED talks.
  
 The dataset contains all TED talks by Jan 9, 2020. Three lanuages are included, English, German, Romanian. 
 
@@ -42,7 +42,8 @@ Parsing HTML: 100%|██████████████| 2/2 [00:02<00:00,
 >>> from ted_talk_downloader import TEDTalkDownloader
 >>> downloader = TEDTalkDownloader('en')
 >>> downloader.get_all_transcripts()
-# all will be saved to 'ted_transcripts.json'
+# (1) for transcripts, check out the file `ted_transcripts.json`
+# (2) for raw webpages, check out the file `ted_raw.json`
 ```
 
 ## Contact
